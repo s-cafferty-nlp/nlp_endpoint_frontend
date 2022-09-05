@@ -1,12 +1,10 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import classes from './ParagraphBox.module.css'
-import { LinkContainer } from 'react-router-bootstrap'
 
 const ParagraphBox = (props) => {
   return (
     <div>
-      {/* <LinkContainer to={`/studentclassrooms/${classroom.classroom._id}`}> */}
       <Card className={classes.paragraphCard}>
         <Card.Body>
           <Card.Title as='h3'>
@@ -19,7 +17,6 @@ const ParagraphBox = (props) => {
           </Card.Text>
         </Card.Body>
       </Card>
-      {/* // </LinkContainer> */}
     </div>
   )
 }

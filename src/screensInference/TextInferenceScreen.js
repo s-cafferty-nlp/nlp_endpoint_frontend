@@ -21,8 +21,6 @@ const TextInferenceScreen = () => {
   const [input, setInput] = useState('')
   const [result, setResult] = useState('')
 
-  const history = useNavigate()
-
   const textGeneration = useSelector((state) => state.textGeneration)
   const { loading, error, output } = textGeneration
 
@@ -32,14 +30,6 @@ const TextInferenceScreen = () => {
     dispatch(generateText(input))
     console.log(input)
   }
-
-  useEffect(() => {
-    setResult('')
-  }, [])
-
-  useEffect(() => {
-    console.log(output)
-  }, [output])
 
   useEffect(() => {
     if (output) {

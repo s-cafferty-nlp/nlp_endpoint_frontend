@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
-import { useDispatch } from 'react-redux'
-import { LinkContainer } from 'react-router-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import LandingImage from '../components/LandingImage'
 import classes from './LandingPage.module.css'
