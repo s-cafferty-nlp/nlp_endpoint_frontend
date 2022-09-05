@@ -1,0 +1,64 @@
+.nav {
+  background-color: rgb(22, 30, 73);
+ 
+}
+
+.navlink {
+  font-family: "Roboto", sans-serif;
+  color: burlywood !important;
+}
+
+.header {
+  padding-bottom: 0;
+  border-bottom: 5px solid rgb(247, 88, 128); 
+}
+
+.img {
+  border: 0px solid #ddd;
+  border-radius: 4px;
+
+  width: 60px;
+  margin-right: 10px;
+}
+
+.titleDiv {
+  position: relative;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.beta {
+  position: absolute; 
+  top: 36px; 
+  right: -1px; 
+  font-family: "Georgia", sans-serif;
+  font-size: 1.05rem;
+  text-transform: none;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--mint) !important;
+}
+
+.h2 {
+  position: relative;
+  font-family: "Georgia", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 0.005;
+  color: var(--tatami) !important;
+  
+}
+
+.h3 {
+  font-family: "Georgia", sans-serif;
+  color: var(--tatami) !important;
+  
+}
+
+#nav-dropdown-user{
+  color: white !important;
+  font-weight: bold;
+  background-color: red;
+}

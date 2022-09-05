@@ -1,0 +1,20 @@
+:root {
+    --overall-background: rgb(248,238,228);
+    --overall-background2: rgb(234, 234, 155);
+}
+
+.main {
+    background-color: var(--overall-background2) ;
+    min-height: 100vh;
+    padding-top: 0;
+    padding-bottom: 5%;
+    width: 100%;
+    
+}
+
+.container {
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    display: block;
+}

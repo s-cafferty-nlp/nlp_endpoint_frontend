@@ -1,0 +1,43 @@
+.paragraphCard {
+    
+    overflow: scroll;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-width: 0px;
+    border-color: var(---tatami);
+    box-shadow: rgba(255, 255, 255, 0.389) 0 1px 0 inset,
+    rgba(46, 54, 80, 0.277) 2px 10px 3px;
+}
+.paragraphCard:hover {
+    border-color: var(--tatami);
+    transform: scale(1.005);
+}
+
+.paragraphHeader {
+    text-transform: none !important;
+}
+
+.h3 {
+    
+    font-family:'Times New Roman', Times, serif;
+    color: var(--slate) !important;
+    font-size: 1.2rem;
+    font-weight: 50;
+    line-height: 2;
+    text-transform: none !important;
+}
+
+.img {
+    border: 0px solid #ddd;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 100%;
+    max-height: 300px;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10rem;
+
+  }

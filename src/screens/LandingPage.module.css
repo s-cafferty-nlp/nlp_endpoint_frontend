@@ -1,0 +1,135 @@
+:root {
+  --orange: #faaf4d;
+  --peach: #ff8d7a;
+  --tatami: #f8eee4;
+  --blue: rgba(115,129,197);
+  --mint: #2fb986;
+  --lightmint: #4ba888;
+  --slate: rgb(54,54,59);
+}
+
+
+.landingContainer {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+  
+  }
+.languageJourneyDiv {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 0%;
+  }
+
+.languageJourney {
+    font-family: 'Georgia';
+    color: var(--blue) !important;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    text-transform:none !important;
+    }
+
+.footerDiv {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 0%;
+    }
+
+.footerText {
+    font-family: 'Georgia';
+    color: var(--blue) !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    text-transform:none !important;
+    }
+
+.titleDiv {
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  
+.numberOfQuestionsHeader {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 0%;
+    position: absolute;
+    top: 100%; 
+    right:10%; 
+  }
+
+.numberOfQuestions {
+    font-family: 'Georgia';
+    color: var(--white) !important;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform:none !important;
+  }
+.letsGoButton {
+    background-color: var(--mint);
+    border: 0;
+    border-color: var(--start-button-border);
+    border-radius: 2rem;
+    color: var(--start-button-text-color);
+    cursor: pointer;
+    box-shadow: var(--shadow) 0 1px 0 inset,
+      var(--thickshadow) 3px 10px 0px;
+    color: var(--white);
+    font-family: Georgia;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1.2;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    width: 70%;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 6rem;
+    outline: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .letsGoButton:hover {
+    transform: scale(1.05);
+    background-color: var(--mint)
+  }
